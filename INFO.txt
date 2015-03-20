@@ -1,0 +1,8 @@
+I'm trying to learn C by myself and made this verry, verry simple calculation program.
+
+I know its far from perfect but im planning to slowly improve it over time. Add proper error handeling. Add a gui, make it multi platform, tread handeling and more stuff like that.
+
+Everyone who wants to use it can grab it ofcourse and i hope you can also learn something from it.
+
+That being say'd i also dont know how to properly add  change notes in git nor how git even work.
+I barely managing to upload my files and i can add some comments but i hope that will also improve over time.
