@@ -1,5 +1,12 @@
 Todo / bugs: 
 
+Remove overuse of global variables.
+------------------------------------
+i got comments on the overuse of global variabels in my code. So i need to learn the how and why of that 
+coding practise.
+
+
+
 implement propper error handeling.
 ------------------------------------
 If you enter a decimal number in the menu it flips like a mandman. (no clue why that happens, must find that out)
@@ -33,4 +40,4 @@ I guess its also tied to optimalisation but for now im quite far before im going
 
 Optimalisation
 ------------------------------------
-This will also be 
+This will be for much later when i learn al the previous stuff. And i suspect that when i learn more in the future that i will update my code accordingly.
