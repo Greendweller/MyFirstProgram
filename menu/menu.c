@@ -1,16 +1,15 @@
-//* Gemaakt door R.Oorschot 2015 als test om te leren hoe C nou precies werkt *//
+//* Made by R.Oorschot 2015 to test and learn the C programming language *//
 #include <stdio.h>
-#include "../menu/menu.h"
+#include "menu.h"
 
 void menu()
 {
-    printf(" \n Gemaakt door R.Oorschot 2015.\n");
+    printf(" \n Made by R.Oorschot 2015.\n");
     printf(" ----------------------------------------\n\n");
-    printf(" 1. Cirkelmaten berekenen. \n");
+    printf(" 1. Calculate circle measurements. \n");
     printf(" 2. \n");
     printf(" 3. \n");
-    printf(" 9. Scherm wissen. \n");
+    printf(" 9. Clear screen. \n");
     printf(" 0. Exit. \n \n");
-    printf(" Maak uw keuze en druk vervolgens op enter: ");
+    printf(" Make your choice and press enter: ");
 }
-

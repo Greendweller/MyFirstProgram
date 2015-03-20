@@ -1,16 +1,17 @@
+//* Made by R.Oorschot 2015 to test and learn the C programming language *//
 #include <stdio.h>
 #include "../input/input.h"
 
 int menu_user_input()
 {
-    int number; // store user input to this variable
+    int number;
     scanf(" %d", &number);
-    return number; // return the user input so that it can be used outside the function
+    return number;
 }
 
 float cir_user_input()
 {
+    float diameter;
     scanf(" %e", &diameter);
-    return diameter; // return the user input so that it can be used outside the function
+    return diameter;
 }
-

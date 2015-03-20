@@ -1,3 +1,3 @@
-//* Gemaakt door R.Oorschot 2015 als test om te leren hoe C nou precies werkt *//
+//* Made by R.Oorschot 2015 to test and learn the C programming language *//
 void info_top();
 void info_bottom();

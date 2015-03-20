@@ -2,8 +2,8 @@
 #define PI 3.14
 
 float diameter;
-double straal;
-double oppervlakte;
-double omtrek;
+double radius;
+double surface;
+double outline;
 
-void cirkel_functies();
+void circle_functions();

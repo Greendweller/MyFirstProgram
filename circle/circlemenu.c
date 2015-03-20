@@ -1,21 +1,20 @@
-//* Gemaakt door R.Oorschot 2015 als test om te leren hoe C nou precies werkt *//
+//* Made by R.Oorschot 2015 to test and learn the C programming language *//
 #include <stdio.h>
 #include "circlefunctions.h"
 #include "circlemenu.h"
 
 void info_top()
-
 {
     system("cls");
     printf(" ----------------------------------------\n");
-    printf(" Typ de diameter van de cirkel: ");
-
+    printf(" Typ the diameter of the circle: ");
 }
+
 void info_bottom()
 {
     printf(" ----------------------------------------\n");
-    printf(" De straal = %f \n\n", straal  );
-    printf(" De oppervlakte = %f \n\n" , oppervlakte);
-    printf(" De omtrek = %f \n" , omtrek);
+    printf(" The radius = %f \n\n", radius);
+    printf(" The surface = %f \n\n" , surface);
+    printf(" The outline = %f \n" , outline);
     printf(" ----------------------------------------\n");
 }

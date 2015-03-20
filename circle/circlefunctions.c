@@ -1,16 +1,16 @@
-//* Gemaakt door R.Oorschot 2015 als test om te leren hoe C nou precies werkt *//
+//* Made by R.Oorschot 2015 to test and learn the C programming language *//
+#include <stdio.h>
 #include "circlefunctions.h"
 #define PI 3.14
 
-float diameter;
-double straal;
-double oppervlakte;
-double omtrek;
+float   diameter;
+double  radius;
+double  surface;
+double  outline;
 
-void cirkel_functies()
+void circle_functions()
 {
-    straal      = diameter / 2;
-    oppervlakte = PI * (straal * straal);
-    omtrek      = 2 * PI * straal;
+    radius   = diameter / 2;
+    surface  = PI * (radius * radius);
+    outline  = 2 * PI * radius;
 }
-

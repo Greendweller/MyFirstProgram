@@ -1,0 +1,36 @@
+Todo / bugs: 
+
+implement propper error handeling.
+------------------------------------
+If you enter a decimal number in the menu it flips like a mandman. (no clue why that happens, must find that out)
+
+Also letters and special chars can be enterd. This should not be allowed.
+
+And surely i forgot more cases for error andeling but these are the ones i found out on my own.
+
+
+Localisation:
+------------------------------------
+I want to add some kind of localisation system via crowdin. 
+Its an ambitous implementation but i want to see/know if im able to implement it.
+
+Cross platform:
+------------------------------------
+For not is a terminal app only and uses a windows system function making it only wrking properly on windows. For now it perhaps works on mac and linux but i cant guarantee anything.
+
+Gui
+------------------------------------
+Eventualy i want to add a gui.
+I want to design it in qt5 and add it to the project.
+
+
+Treading or how its called?
+------------------------------------
+not sure what this is but i have to do research on it. 
+I think its to make different funtions run in their own treads making it faster. 
+I guess its also tied to optimalisation but for now im quite far before im going to dig into this.
+
+
+Optimalisation
+------------------------------------
+This will also be 

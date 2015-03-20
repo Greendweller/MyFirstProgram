@@ -1,10 +1,10 @@
-//* Gemaakt door R.Oorschot 2015 als test om te leren hoe C nou precies werkt *//
+//* Made by R.Oorschot 2015 to test and learn the C programming language *//
 #include <stdio.h>
 
 #include "menu/menu.h"
-#include "circle/circlemenu.h"
-#include "circle/circlefunctions.h"
 #include "input/input.h"
+#include "circle/circlefunctions.h"
+#include "circle/circlemenu.h"
 
 int main(void)
 {
@@ -17,9 +17,8 @@ int main(void)
 
         info_top();
         cir_user_input();
-        cirkel_functies();
+        circle_functions();
         info_bottom();
-
         break;
 
     case 2:
@@ -30,7 +29,6 @@ int main(void)
 
     case 9:
         system("cls");
-
         break;
 
     case 0:
