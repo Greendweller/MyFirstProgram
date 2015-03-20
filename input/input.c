@@ -1,6 +1,7 @@
 //* Made by R.Oorschot 2015 to test and learn the C programming language *//
 #include <stdio.h>
-#include "../input/input.h"
+#include "input.h"
+#include "../circle/circlefunctions.h"
 
 int menu_user_input()
 {
@@ -11,7 +12,6 @@ int menu_user_input()
 
 float cir_user_input()
 {
-    float diameter;
     scanf(" %e", &diameter);
     return diameter;
 }
