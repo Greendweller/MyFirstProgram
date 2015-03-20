@@ -2,6 +2,7 @@
 #include <stdio.h>
 
 #include "menu.h"
+#include "circlemenu.h"
 #include "circlefunctions.h"
 #include "input.h"
 

@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include "circlefunctions.h"
+
+void info_top()
+
+{
+    system("cls");
+    printf(" ----------------------------------------\n");
+    printf(" Typ de diameter van de cirkel: ");
+
+}
+void info_bottom()
+{
+    printf(" ----------------------------------------\n");
+    printf(" De straal = %f \n\n", straal  );
+    printf(" De oppervlakte = %f \n\n" , oppervlakte);
+    printf(" De omtrek = %f \n" , omtrek);
+    printf(" ----------------------------------------\n");
+}

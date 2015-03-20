@@ -1,4 +1,6 @@
 //* Gemaakt door R.Oorschot 2015 als test om te leren hoe C nou precies werkt *//
+#include "circlemenu.h"
+
 int menu_user_input()
 {
     int number; // store user input to this variable
