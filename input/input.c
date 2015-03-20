@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "input.h"
+#include "../input/input.h"
 
 int menu_user_input()
 {

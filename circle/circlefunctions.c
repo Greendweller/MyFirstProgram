@@ -1,4 +1,5 @@
 //* Gemaakt door R.Oorschot 2015 als test om te leren hoe C nou precies werkt *//
+#include "circlefunctions.h"
 #define PI 3.14
 
 float diameter;

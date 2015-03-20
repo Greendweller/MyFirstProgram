@@ -1,10 +1,10 @@
 //* Gemaakt door R.Oorschot 2015 als test om te leren hoe C nou precies werkt *//
 #include <stdio.h>
 
-#include "menu.h"
-#include "circlemenu.h"
-#include "circlefunctions.h"
-#include "input.h"
+#include "menu/menu.h"
+#include "circle/circlemenu.h"
+#include "circle/circlefunctions.h"
+#include "input/input.h"
 
 int main(void)
 {
