@@ -1,6 +1,5 @@
 //* Made by R.Oorschot 2015 to test and learn the C programming language *//
 #include <stdio.h>
-#include <stdlib.h>
 #include "input.h"
 #include "../circle/circlefunctions.h"
 
