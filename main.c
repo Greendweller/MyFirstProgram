@@ -1,10 +1,11 @@
 //* Made by R.Oorschot 2015 to test and learn the C programming language *//
+
 #include <stdio.h>
 
 #include "menu/menu.h"
-#include "input/input.h"
-#include "circle/circlefunctions.h"
 #include "circle/circlemenu.h"
+#include "circle/circlefunctions.h"
+#include "input/input.h"
 
 int main(void)
 {
@@ -23,9 +24,15 @@ int main(void)
 
     case 2:
         system("cls");
+        break;
 
     case 3:
         system("cls");
+        break;
+
+    case 8:
+        system("cls");
+        break;
 
     case 9:
         system("cls");
@@ -33,6 +40,11 @@ int main(void)
 
     case 0:
         return(0);
+
+    default:
+        system("cls");
+        printf("\n **Wrong choice try again...**\n");
+        break;
 }
 
 }
