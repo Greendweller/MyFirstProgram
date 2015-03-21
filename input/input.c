@@ -6,10 +6,8 @@
 int menu_user_input()
 {
     int number;
-    if (scanf(" %d", &number) !=1);
-    printf("\n ***Not a valid menu choise*** ");
-
-        return number;
+    scanf(" %d", &number);
+    return number;
 }
 
 float cir_user_input()

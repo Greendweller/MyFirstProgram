@@ -1,5 +1,4 @@
 //* Made by R.Oorschot 2015 to test and learn the C programming language *//
-#include <stdio.h>
 #include "circlefunctions.h"
 #define PI 3.14
 

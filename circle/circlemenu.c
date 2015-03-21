@@ -13,7 +13,7 @@ void info_top()
 void info_bottom()
 {
     printf(" ----------------------------------------\n");
-    printf(" The radius = %f \n\n", radius);
+    printf(" The radius = %f \n\n" , radius);
     printf(" The surface = %f \n\n" , surface);
     printf(" The outline = %f \n" , outline);
     printf(" ----------------------------------------\n");
