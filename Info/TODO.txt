@@ -6,6 +6,15 @@ i got comments on the overuse of global variabels in my code. So i need to learn
 coding practise.
 
 
+make an installer / packaging
+------------------------------------
+install it in de default program file folders of the respective os's.
+include the todo.txt and the info.txt in the installation.
+
+proper licencing files
+------------------------------------
+gnu v2? or how its called?
+
 
 implement propper error handeling.
 ------------------------------------
