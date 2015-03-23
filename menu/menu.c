@@ -1,11 +1,11 @@
-//* Made by R.Oorschot 2015 to test and learn the C programming language *//
+//* Made by Greendweller 2015 to test and learn the C programming language *//
 
 #include <stdio.h>
 #include "menu.h"
 
 void menu()
 {
-    printf(" \n Made by R.Oorschot 2015.\n");
+    printf(" \n Made by Greendweller 2015.\n");
     printf(" ----------------------------------------\n\n");
     printf(" 1. Calculate circle measurements. \n");
     printf(" 2. \n");

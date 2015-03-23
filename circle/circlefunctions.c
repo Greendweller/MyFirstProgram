@@ -1,5 +1,6 @@
-//* Made by R.Oorschot 2015 to test and learn the C programming language *//
+//* Made by Greendweller 2015 to test and learn the C programming language *//
 #include "circlefunctions.h"
+#include "../menu/menu.h"
 #define PI 3.14
 
 static float diameter;
@@ -8,7 +9,9 @@ float cir_user_input()
 {
     if (scanf("%e",&diameter) != 1)
     {
-        return menu();
+        printf(" Wrong input ,\n");
+        diameter = 0;
+        return 0;
     }
 return diameter;
 }

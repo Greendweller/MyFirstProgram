@@ -1,4 +1,4 @@
-//* Made by R.Oorschot 2015 to test and learn the C programming language *//
+//* Made by Greendweller 2015 to test and learn the C programming language *//
 
 #include <stdio.h>
 #include "circleresults.h"
