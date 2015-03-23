@@ -9,9 +9,10 @@ float cir_user_input()
 {
     if (scanf("%e",&diameter) != 1)
     {
-        printf(" Wrong input ,\n");
+        printf(" Wrong input \n");
         diameter = 0;
-        return 0;
+        menu();
+        return;
     }
 return diameter;
 }
