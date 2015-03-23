@@ -1,20 +1,5 @@
 Todo / bugs: 
-
-Remove overuse of global variables.
-------------------------------------
-i got comments on the overuse of global variabels in my code. So i need to learn the how and why of that 
-coding practise.
-
-
-make an installer / packaging
-------------------------------------
-install it in de default program file folders of the respective os's.
-include the todo.txt and the info.txt in the installation.
-
-proper licencing files
-------------------------------------
-gnu v2? or how its called?
-
+##########################################
 
 implement propper error handeling.
 ------------------------------------
@@ -50,3 +35,20 @@ I guess its also tied to optimalisation but for now im quite far before im going
 Optimalisation
 ------------------------------------
 This will be for much later when i learn al the previous stuff. And i suspect that when i learn more in the future that i will update my code accordingly.
+
+make an installer / packaging
+------------------------------------
+install it in de default program file folders of the respective os's.
+include the todo.txt and the info.txt in the installation.
+
+proper licencing files
+------------------------------------
+gpl v2? or how its called?
+
+DONE!!!
+##########################################
+
+Remove overuse of global variables.
+------------------------------------
+i got comments on the overuse of global variabels in my code. So i need to learn the how and why of that 
+coding practise.
