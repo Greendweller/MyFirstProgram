@@ -2,14 +2,31 @@
 #include "circlefunctions.h"
 #define PI 3.14
 
-float   diameter;
-double  radius;
-double  surface;
-double  outline;
+static float diameter;
 
-void circle_functions()
+float cir_user_input()
 {
-    radius   = diameter / 2;
-    surface  = PI * (radius * radius);
-    outline  = 2 * PI * radius;
+    if (scanf("%e",&diameter) != 1)
+    {
+        return menu();
+    }
+return diameter;
+}
+
+double get_radius()
+{
+    double radius = diameter / 2;
+    return radius;
+}
+
+double get_surface()
+{
+    double radius = get_radius();
+    return PI * (radius * radius);
+}
+
+double get_outline()
+{
+    double radius = get_radius();
+    return 2 * PI * radius;
 }
