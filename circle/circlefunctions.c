@@ -7,12 +7,11 @@ static float diameter;
 
 float cir_user_input()
 {
-;    if (scanf("%a",&diameter) != 1)
-    {
-        printf(" Wrong input \n");
-        return 0;
-    }
-return diameter;
+    if (scanf("%a",&diameter) != 1) {
+        printf(" **Wrong choise, try again**\n");
+        } else {
+            return diameter;
+        }
 }
 
 double get_radius()
