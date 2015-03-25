@@ -18,6 +18,7 @@ void info_bottom()
     printf(" The radius = %f \n\n" , get_radius());
     printf(" The surface = %f \n\n" , get_surface());
     printf(" The outline = %f \n" , get_outline());
-    printf(" ----------------------------------------");
+    printf(" ----------------------------------------\n ");
+    system(" pause");
     return;
 }
