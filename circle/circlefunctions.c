@@ -1,4 +1,5 @@
 //* Made by Greendweller 2015 to test and learn the C programming language *//
+
 #include "circlefunctions.h"
 #include "../menu/menu.h"
 #define PI 3.14
@@ -8,7 +9,7 @@ static float diameter;
 float cir_user_input()
 {
     if (scanf("%a",&diameter) != 1) {
-        printf(" **Wrong choise, try again**\n");
+        printf(" \n error 2. **Wrong choise circle measurement input, try again**\n");
         } else {
             return diameter;
         }
