@@ -8,11 +8,11 @@ static float diameter;
 
 float cir_user_input()
 {
-    if (scanf("%a",&diameter) != 1) {
-        printf(" \n error 2. **Wrong choise circle measurement input, try again**\n");
-        } else {
-            return diameter;
-        }
+    if (scanf("%e",&diameter) != 1) {
+        return diameter;
+            } else {
+            printf(" \n error 2. **Wrong choise circle measurement input, try again**\n");
+            }
 }
 
 double get_radius()
