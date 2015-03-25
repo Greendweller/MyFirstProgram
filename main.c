@@ -23,7 +23,9 @@ int main(void)                    /* start program */
                 info_top();       /* display user input choises on console */
                 cir_user_input(); /* accept user input */
                 info_bottom();    /* show results of the user input */
+
                 break;            /* switch termination */
+                done = 0;         /* continue while loop */
 
             case 2:               /* switch case 2 */
                 system("cls");    /* call windows function to clear the console screen */
@@ -43,7 +45,7 @@ int main(void)                    /* start program */
 
             default:              /* if none of the user choises == the case expression(s); execute the following code */
                 system("cls");    /* call windows function to clear the console screen */
-                printf(" **Wrong choice try again...**"); /* print error code on connsole */
+                printf(" error 1 **Wrong choice main menu input, try again...**"); /* print error code on connsole */
         }                         /*  end switch */
 
     }                             /* end while loop */
